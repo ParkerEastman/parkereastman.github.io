@@ -1,1 +1,36 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test stuff</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function toggleMenu() {
+            document.getElementById("menu").classList.toggle("open");
+        }
+    </script>
+</head>
+<body>
+    <div class="menu" id="menu">
+        <button class="close-btn" onclick="toggleMenu()">&#10006;</button>
+        <button>Home</button>
+        <button>About Us</button>
+        <button>Services</button>
+        <button>Contact</button>
+        <button>Logs</button>
+    </div>
+    
+    <div class="hamburger" onclick="toggleMenu()">
+        &#9776;
+    </div>
+
+    <header>
+        <h1>Test page</h1>
+    </header>
+    
+    <main>
+        <p>This is a bunch of sample data that just chills here</p>
+    </main>
+</body>
+</html>
