@@ -1,18 +1,73 @@
-body { background: #0a0a0a url('https://www.transparenttextures.com/patterns/wave-cut.png') repeat; background-size: cover; opacity: 0.05; font-family: Arial, sans-serif; background-color: #0a0a0a; color: #c0c0c0; margin: 0; padding: 0; }
+body {
+    background: #0a0a0a url('https://www.transparenttextures.com/patterns/asfalt-light.png') repeat;
+    background-size: cover;
+    opacity: 0.05;
+    font-family: Arial, sans-serif;
+    background-color: #0a0a0a;
+    color: #c0c0c0;
+    margin: 0;
+    padding: 0;
+}
 
-h1 { text-align: center; padding: 20px; }
+h1 {
+    text-align: center;
+    padding: 20px;
+}
 
-main { padding: 20px; text-align: center; }
+main {
+    padding: 20px;
+    text-align: center;
+}
 
-.hamburger { font-size: 30px; cursor: pointer; position: fixed; top: 20px; left: 20px; color: #c0c0c0; }
+.hamburger {
+    font-size: 30px;
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    color: #c0c0c0;
+}
 
-.menu { position: fixed; left: -250px; top: 0; width: 250px; height: 100%; background-color: #2b2b2b; transition: left 0.3s ease-in-out; padding-top: 50px; box-shadow: 2px 0 10px rgba(192, 192, 192, 0.3); }
+.menu {
+    position: fixed;
+    left: -250px;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #2b2b2b;
+    transition: left 0.3s ease-in-out;
+    padding-top: 50px;
+    box-shadow: 2px 0 10px rgba(192, 192, 192, 0.3);
+}
 
-.menu.open { left: 0; }
+.menu.open {
+    left: 0;
+}
 
-.menu button { display: block; width: 100%; padding: 15px; background: none; border: none; color: #c0c0c0; text-align: left; font-size: 18px; cursor: pointer; border-bottom: 1px solid rgba(192, 192, 192, 0.2); }
+.menu button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background: none;
+    border: none;
+    color: #c0c0c0;
+    text-align: left;
+    font-size: 18px;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(192, 192, 192, 0.2);
+}
 
-.menu button:hover { background-color: rgba(192, 192, 192, 0.1); }
+.menu button:hover {
+    background-color: rgba(192, 192, 192, 0.1);
+}
 
-.close-btn { position: absolute; top: 10px; right: 15px; font-size: 20px; background: none; border: none; color: #c0c0c0; cursor: pointer; }
-
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: #c0c0c0;
+    cursor: pointer;
+}
